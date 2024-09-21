@@ -1,0 +1,38 @@
+src/
+├── app.module.ts
+├── main.ts
+├── shared/
+│   ├── constants.ts
+│   ├── exceptions/
+│   │   ├── bad-request.exception.ts
+│   │   ├── not-found.exception.ts
+│   │   ├── ...
+│   ├── filters/
+│   │   ├── http-exception.filter.ts
+│   │   ├── ...
+│   ├── pipes/
+│   │   ├── validation.pipe.ts
+│   │   ├── ...
+│   ├── utils/
+│   │   ├── logger.ts
+│   │   ├── ...
+├── modules/
+│   ├── users/
+│   │   ├── users.controller.ts
+│   │   ├── users.service.ts
+│   │   ├── users.module.ts
+│   ├── auth/
+│   │   ├── auth.controller.ts
+│   │   ├── auth.service.ts
+│   │   ├── auth.module.ts
+│   ├── ...
+├── tests/
+│   ├── unit/
+│   │   ├── users/
+│   │   │   ├── users.service.spec.ts
+│   │   │   ├── ...
+│   ├── integration/
+│   │   ├── app.e2e-spec.ts
+│   │   ├── users/
+│   │   │   ├── users.e2e-spec.ts
+│   │   │   ├── ...
